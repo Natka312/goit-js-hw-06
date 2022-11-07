@@ -6,7 +6,7 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-//console.log(ingredients)
+console.log(ingredients)
 const elements = document.querySelector("ingredients");
 const list = document.querySelector("ul");
 const arr = [];
