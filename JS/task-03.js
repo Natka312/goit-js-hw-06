@@ -21,7 +21,7 @@ const alt = elem.alt
 
 return `<li class = "gallery-item"> <img src ="${url} alt"${alt}" width = "250px"></li>`
 })
-
+.join("")
 console.log(image)
 
 listEl.insertAdjacentHTML("afterbegin", image)
